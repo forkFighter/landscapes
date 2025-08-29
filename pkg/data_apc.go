@@ -989,6 +989,223 @@ var DeviceTypesMapapc = map[string]*DeviceData{
             { Name: "Management", Label: "", Type: "1000base-t", MgmtOnly: true },
         },
     },
+    "AP6015A": {
+        Manufacturer: "APC",
+        Model: "AP6015A",
+        Slug: "apc-ap6015a",
+        UHeight: 1,
+        PartNumber: "AP6015A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.91,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "iec-60320-c14", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP6020A": {
+        Manufacturer: "APC",
+        Model: "AP6020A",
+        Slug: "apc-ap6020a",
+        UHeight: 1,
+        PartNumber: "AP6020A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 11", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 12", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 13", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP6031A": {
+        Manufacturer: "APC",
+        Model: "AP6031A",
+        Slug: "apc-ap6031a",
+        UHeight: 1,
+        PartNumber: "AP6031A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 3.8,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "nema-l6-30p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP6037A": {
+        Manufacturer: "APC",
+        Model: "AP6037A",
+        Slug: "apc-ap6037a",
+        UHeight: 1,
+        PartNumber: "AP6037A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 3.6,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "nema-l15-30p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP6120A": {
+        Manufacturer: "APC",
+        Model: "AP6120A",
+        Slug: "apc-ap6120a",
+        UHeight: 1,
+        PartNumber: "AP6120A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 1.56,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "AP7516": {
         Manufacturer: "APC",
         Model: "AP7516",
@@ -1778,6 +1995,52 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: true },
+        },
+    },
+    "AP7900B": {
+        Manufacturer: "APC",
+        Model: "AP7900B",
+        Slug: "apc-ap7900b",
+        UHeight: 1,
+        PartNumber: "AP7900B",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.25,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-12", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Power Port 1", Label: "", Type: "nema-l5-20p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Power Outlet 1", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 2", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 3", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 4", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 5", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 6", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 7", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Power Outlet 8", Type: "nema-5-15r", Label: "", PowerPort: "Power Port 1", FeedLeg: "A", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+            { Name: "Management", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
     "AP7901B": {
@@ -3759,6 +4022,334 @@ var DeviceTypesMapapc = map[string]*DeviceData{
             { Name: "Network", Label: "", Type: "100base-tx", MgmtOnly: true },
         },
     },
+    "AP9559": {
+        Manufacturer: "APC",
+        Model: "AP9559",
+        Slug: "apc-ap9559",
+        UHeight: 1,
+        PartNumber: "AP9559",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 0.98,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 11", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 12", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP9560": {
+        Manufacturer: "APC",
+        Model: "AP9560",
+        Slug: "apc-ap9560",
+        UHeight: 1,
+        PartNumber: "AP9560",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "nema-l5-30p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP9562": {
+        Manufacturer: "APC",
+        Model: "AP9562",
+        Slug: "apc-ap9562",
+        UHeight: 1,
+        PartNumber: "AP9562",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "nema-5-15p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "nema-5-15r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP9563": {
+        Manufacturer: "APC",
+        Model: "AP9563",
+        Slug: "apc-ap9563",
+        UHeight: 1,
+        PartNumber: "AP9563",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "nema-5-20p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP9564": {
+        Manufacturer: "APC",
+        Model: "AP9564",
+        Slug: "apc-ap9564",
+        UHeight: 1,
+        PartNumber: "AP9564",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "nema-l5-20p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "nema-5-20r", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP9565": {
+        Manufacturer: "APC",
+        Model: "AP9565",
+        Slug: "apc-ap9565",
+        UHeight: 1,
+        PartNumber: "AP9565",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.05,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "iec-60320-c20", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 11", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 12", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP9566": {
+        Manufacturer: "APC",
+        Model: "AP9566",
+        Slug: "apc-ap9566",
+        UHeight: 1,
+        PartNumber: "AP9566",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.5,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "nema-l6-20p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 11", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 12", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "AP9568": {
         Manufacturer: "APC",
         Model: "AP9568",
@@ -3796,6 +4387,92 @@ var DeviceTypesMapapc = map[string]*DeviceData{
             { Name: "Outlet 13", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "Outlet 14", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
             { Name: "Outlet 15", Type: "iec-60320-c13", Label: "", PowerPort: "Power Port 1", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP9570": {
+        Manufacturer: "APC",
+        Model: "AP9570",
+        Slug: "apc-ap9570",
+        UHeight: 1,
+        PartNumber: "AP9570",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.73,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "nema-l6-30p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
+    "AP9571A": {
+        Manufacturer: "APC",
+        Model: "AP9571A",
+        Slug: "apc-ap9571a",
+        UHeight: 1,
+        PartNumber: "AP9571A",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 2.55,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "nema-l6-30p", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 4", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 5", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 6", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 7", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 8", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 9", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 10", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
         },
         FrontPorts: []FrontPort{
         },
@@ -4390,6 +5067,47 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         Interfaces: []Interface{
         },
     },
+    "BX750MI-GR": {
+        Manufacturer: "APC",
+        Model: "BX750MI-GR",
+        Slug: "apc-bx750mi-gr",
+        UHeight: 0,
+        PartNumber: "Back-UPS-BX750MI-GR",
+        IsFullDepth: false,
+        Airflow: "passive",
+        FrontImage: true,
+        RearImage: true,
+        SubdeviceRole: "",
+        Weight: 5.4,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "usb", Type: "usb-b", Label: "Data port", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Input", Label: "Input", Type: "ita-ef", MaximumDraw: 410, AllocatedDraw: 410 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "1", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "2", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "3", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "4", Type: "ita-f", Label: "", PowerPort: "Input", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
+        },
+    },
     "EPDU1016b": {
         Manufacturer: "APC",
         Model: "EPDU1016b",
@@ -4656,6 +5374,49 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         },
         Interfaces: []Interface{
             { Name: "SmartConnect", Label: "", Type: "1000base-t", MgmtOnly: true },
+        },
+    },
+    "SMT1500RMI1U": {
+        Manufacturer: "APC",
+        Model: "SMT1500RMI1U",
+        Slug: "apc-smt1500rmi1u",
+        UHeight: 1,
+        PartNumber: "SMT1500RMI1U",
+        IsFullDepth: true,
+        Airflow: "front-to-rear",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 24.09,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "iec-60320-c14", MaximumDraw: 1000, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Group 1 Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 1 Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Group 2 Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "SMT1500RMI2U": {
@@ -6610,6 +7371,50 @@ var DeviceTypesMapapc = map[string]*DeviceData{
         Interfaces: []Interface{
             { Name: "Ethernet", Label: "NMC", Type: "100base-tx", MgmtOnly: true },
             { Name: "Universal I/O 1", Label: "RJ-45", Type: "other", MgmtOnly: false },
+        },
+    },
+    "Smart-UPS SRTG6KXLI-NCLI": {
+        Manufacturer: "APC",
+        Model: "Smart-UPS SRTG6KXLI-NCLI",
+        Slug: "apc-srtg6kxli-ncli",
+        UHeight: 4,
+        PartNumber: "SRTG6KXLI-NCLI",
+        IsFullDepth: true,
+        Airflow: "passive",
+        FrontImage: false,
+        RearImage: false,
+        SubdeviceRole: "",
+        Weight: 55.9,
+        WeightUnit: "",
+        IsPowered: false,
+        ConsolePorts: []ConsolePort{
+            { Name: "Serial", Type: "rj-45", Label: "", Poe: false },
+            { Name: "USB", Type: "usb-b", Label: "", Poe: false },
+        },
+        ConsoleServerPorts: []ConsoleServerPort{
+        },
+        PowerPorts: []PowerPort{
+            { Name: "Source", Label: "", Type: "hardwired", MaximumDraw: 6600, AllocatedDraw: 6000 },
+            { Name: "XLBP Source", Label: "", Type: "dc-terminal", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        PowerOutlets: []PowerOutlet{
+            { Name: "Outlet 1", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 2", Type: "iec-60320-c13", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Outlet 3", Type: "iec-60320-c19", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+            { Name: "Hardwire Output", Type: "hardwired", Label: "", PowerPort: "Source", FeedLeg: "", MaximumDraw: 0, AllocatedDraw: 0 },
+        },
+        FrontPorts: []FrontPort{
+        },
+        RearPorts: []RearPort{
+        },
+        ModuleBays: []ModuleBay{
+            { Name: "SmartSlot", Label: "", Position: "SmartSlot" },
+        },
+			  DeviceBays: []DeviceBay{
+        },
+        InventoryItems: []InventoryItem{
+        },
+        Interfaces: []Interface{
         },
     },
     "Smart-UPS X 1000VA, Rack Mount, LCD 230V": {
